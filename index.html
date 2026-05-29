@@ -1,0 +1,770 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Minecraft Plugins &amp; Server Performance | ArkFlame Studios</title>
+<meta content="Premium Minecraft plugins for server security, anti-lag performance, crash protection, proxy protection, authentication, anticheat, and SMP gameplay." name="description"/>
+<meta content="#111216" name="theme-color"/>
+<meta content="dark" name="color-scheme"/>
+<meta content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" name="robots"/>
+<link href="https://arkflame.com/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="ArkFlame Studios" property="og:site_name"/>
+<meta content="Minecraft Plugins &amp; Server Performance | ArkFlame Studios" property="og:title"/>
+<meta content="Premium Minecraft plugins for server security, anti-lag performance, crash protection, proxy protection, authentication, anticheat, and SMP gameplay." property="og:description"/>
+<meta content="https://arkflame.com/" property="og:url"/>
+<meta content="https://arkflame.com/assets/img/og-image.webp" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Minecraft Plugins &amp; Server Performance | ArkFlame Studios" name="twitter:title"/>
+<meta content="Premium Minecraft plugins for server security, anti-lag performance, crash protection, proxy protection, authentication, anticheat, and SMP gameplay." name="twitter:description"/>
+<meta content="https://arkflame.com/assets/img/og-image.webp" name="twitter:image"/>
+<link href="favicon.webp" rel="icon" sizes="any"/>
+<link href="assets/img/favicon-32.webp" rel="icon" type="image/webp"/>
+<link href="assets/img/apple-touch-icon.webp" rel="apple-touch-icon"/>
+<link href="site.webmanifest" rel="manifest"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link crossorigin="" href="https://cdn.jsdelivr.net" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&amp;family=Rajdhani:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/>
+<link href="assets/css/styles.css" rel="stylesheet"/>
+
+<meta content="minecraft plugins, high-performance minecraft plugins, minecraft server plugins, minecraft exploit fixer, FlameCord, VeloFlame, Paper plugins, Spigot plugins, Bukkit plugins, Velocity plugins, anti lag minecraft plugin, SMP plugins, Minecraft anticheat plugin" name="keywords"/><meta content="ArkFlame Studios" name="author"/><meta content="image/webp" property="og:image:type"/><meta content="1200" property="og:image:width"/><meta content="630" property="og:image:height"/><meta content="en_US" property="og:locale"/><link as="image" href="assets/img/arkflame-logo.webp" rel="preload" type="image/webp"/><link as="image" href="assets/img/og-image.webp" rel="preload" type="image/webp"/><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://arkflame.com/#organization",
+      "name": "ArkFlame Studios",
+      "url": "https://arkflame.com/",
+      "logo": "https://arkflame.com/assets/img/arkflame-logo.webp",
+      "image": "https://arkflame.com/assets/img/og-image.webp",
+      "sameAs": [
+        "https://github.com/ArkFlame",
+        "https://builtbybit.com/creators/linsaftw.152552/",
+        "https://discord.com/invite/gF36AT3",
+        "https://flamecord.com/",
+        "https://exploitfixer.org/",
+        "https://veloflame.com/",
+        "https://fairplay.arkflame.com/",
+        "https://linsaftw.arkflame.com/"
+      ],
+      "description": "ArkFlame Studios builds premium Minecraft plugins and high-performance server software for security, proxy protection, anti-lag optimization, authentication, anticheat, and SMP gameplay."
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://arkflame.com/#website",
+      "url": "https://arkflame.com/",
+      "name": "ArkFlame Studios",
+      "publisher": {
+        "@id": "https://arkflame.com/#organization"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://arkflame.com/#webpage",
+      "url": "https://arkflame.com/",
+      "name": "Minecraft Plugins & Server Performance | ArkFlame Studios",
+      "description": "Premium Minecraft plugins for server security, anti-lag performance, crash protection, proxy protection, authentication, anticheat, and SMP gameplay.",
+      "isPartOf": {
+        "@id": "https://arkflame.com/#website"
+      },
+      "about": {
+        "@id": "https://arkflame.com/#organization"
+      },
+      "primaryImageOfPage": "https://arkflame.com/assets/img/og-image.webp",
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://arkflame.com/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://arkflame.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Minecraft Plugins",
+          "item": "https://arkflame.com/#security"
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://arkflame.com/#minecraft-plugins",
+      "name": "High-Performance Minecraft Plugins by ArkFlame Studios",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "ExploitFixer",
+          "url": "https://exploitfixer.org/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "FairPlay",
+          "url": "https://fairplay.arkflame.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "AuthMe Premium",
+          "url": "https://builtbybit.com/resources/authme-premium-geyser-java.44493/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "FlamePaper",
+          "url": "https://builtbybit.com/resources/flamepaper-high-performance.44405/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "RedstoneLimiter",
+          "url": "https://builtbybit.com/resources/redstonelimiter-smart-redstone-limiter.23133/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "EntityLimiter",
+          "url": "https://builtbybit.com/resources/entitylimiter-optimize-performance.67164/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "MobStacker",
+          "url": "https://builtbybit.com/resources/mobstacker-optimize-server-performance.23141/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "FlameCord",
+          "url": "https://flamecord.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "VeloFlame",
+          "url": "https://veloflame.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "name": "FlamePractice",
+          "url": "https://builtbybit.com/resources/flamepractice-duels-ranked-ffa.70252/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "name": "EssentialsLite",
+          "url": "https://builtbybit.com/resources/essentialslite.34917/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "name": "SMP Harvest",
+          "url": "https://builtbybit.com/resources/smp-harvest.26872/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "name": "SMP Punishments",
+          "url": "https://builtbybit.com/resources/smp-punishments-voice-mute-bans.103696/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "name": "SMP Combat",
+          "url": "https://builtbybit.com/resources/smp-combat.103978/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "name": "SMP Regions",
+          "url": "https://builtbybit.com/resources/smp-regions.104646/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "name": "SMP Lifesteal",
+          "url": "https://builtbybit.com/resources/smp-lifesteal.106855/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "name": "SMP Menus",
+          "url": "https://builtbybit.com/resources/smp-menus.108152/"
+        }
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "ExploitFixer",
+      "url": "https://exploitfixer.org/",
+      "image": "https://arkflame.com/assets/img/product-icons/exploitfixer.webp",
+      "description": "Minecraft server crash fixer and exploit mitigation plugin for Spigot, Paper, and Folia networks.",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Minecraft Java Edition Server",
+      "keywords": "minecraft exploit fixer, crash protection, packet defense, security plugin",
+      "publisher": {
+        "@id": "https://arkflame.com/#organization"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "FairPlay",
+      "url": "https://fairplay.arkflame.com/",
+      "image": "https://arkflame.com/assets/img/product-icons/fairplay.webp",
+      "description": "Minecraft anticheat plugin for combat integrity, movement checks, and PvP trust.",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Minecraft Java Edition Server",
+      "keywords": "minecraft anticheat plugin, combat anticheat, pvp security",
+      "publisher": {
+        "@id": "https://arkflame.com/#organization"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "AuthMe Premium",
+      "url": "https://builtbybit.com/resources/authme-premium-geyser-java.44493/",
+      "image": "https://arkflame.com/assets/img/product-icons/authme-premium.webp",
+      "description": "Premium Minecraft authentication plugin for secure login, Java, Bedrock, Geyser, and Floodgate server access.",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Minecraft Java Edition Server",
+      "keywords": "minecraft secure login plugin, authentication plugin, geyser floodgate",
+      "publisher": {
+        "@id": "https://arkflame.com/#organization"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "FlamePaper",
+      "url": "https://builtbybit.com/resources/flamepaper-high-performance.44405/",
+      "image": "https://arkflame.com/assets/img/product-icons/flamepaper.webp",
+      "description": "High-performance PaperSpigot 1.8.8 fork for PvP servers and optimized Minecraft server behavior.",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Minecraft Java Edition Server",
+      "keywords": "paperspigot fork, minecraft server performance, pvp server software",
+      "publisher": {
+        "@id": "https://arkflame.com/#organization"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "RedstoneLimiter",
+      "url": "https://builtbybit.com/resources/redstonelimiter-smart-redstone-limiter.23133/",
+      "image": "https://arkflame.com/assets/img/product-icons/redstonelimiter.webp",
+      "description": "Minecraft anti-lag redstone plugin that prevents redstone lag machines and protects tick stability.",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Minecraft Java Edition Server",
+      "keywords": "anti lag redstone plugin, prevent redstone lag, minecraft lag reduction",
+      "publisher": {
+        "@id": "https://arkflame.com/#organization"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "EntityLimiter",
+      "url": "https://builtbybit.com/resources/entitylimiter-optimize-performance.67164/",
+      "image": "https://arkflame.com/assets/img/product-icons/entitylimiter.webp",
+      "description": "Minecraft entity limiter plugin for entity optimization, lag reduction, and high player count stability.",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Minecraft Java Edition Server",
+      "keywords": "best entity limiter plugin, minecraft entity optimization, minecraft lag reduction",
+      "publisher": {
+        "@id": "https://arkflame.com/#organization"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "MobStacker",
+      "url": "https://builtbybit.com/resources/mobstacker-optimize-server-performance.23141/",
+      "image": "https://arkflame.com/assets/img/product-icons/mobstacker.webp",
+      "description": "Minecraft mob stacking plugin that reduces entity pressure while preserving survival gameplay.",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Minecraft Java Edition Server",
+      "keywords": "mob stacker plugin, entity optimization, survival plugin",
+      "publisher": {
+        "@id": "https://arkflame.com/#organization"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "FlameCord",
+      "url": "https://flamecord.com/",
+      "image": "https://arkflame.com/assets/img/product-icons/flamecord.webp",
+      "description": "High-performance BungeeCord and Waterfall proxy fork for anti-bot, anti-crash, and network protection.",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Minecraft Java Edition Server",
+      "keywords": "FlameCord, BungeeCord DDOS protection, BungeeCord proxy protection, anti bot proxy",
+      "publisher": {
+        "@id": "https://arkflame.com/#organization"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "VeloFlame",
+      "url": "https://veloflame.com/",
+      "image": "https://arkflame.com/assets/img/product-icons/veloflame.webp",
+      "description": "Velocity fork for modern Minecraft proxy performance, packet limits, and secure network infrastructure.",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Minecraft Java Edition Server",
+      "keywords": "Velocity fork, Velocity plugins, Minecraft proxy performance",
+      "publisher": {
+        "@id": "https://arkflame.com/#organization"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "FlamePractice",
+      "url": "https://builtbybit.com/resources/flamepractice-duels-ranked-ffa.70252/",
+      "image": "https://arkflame.com/assets/img/product-icons/flamepractice.webp",
+      "description": "Minecraft PvP practice server plugin for arenas, kits, matchmaking, and competitive gameplay loops.",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Minecraft Java Edition Server",
+      "keywords": "minecraft practice plugin, pvp plugin, arena plugin",
+      "publisher": {
+        "@id": "https://arkflame.com/#organization"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "EssentialsLite",
+      "url": "https://builtbybit.com/resources/essentialslite.34917/",
+      "image": "https://arkflame.com/assets/img/products/smp/essentialslite.webp",
+      "description": "High-performance Minecraft essentials plugin for homes, warps, kits, chat, economy, teleportation, and utilities.",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Minecraft Java Edition Server",
+      "keywords": "minecraft essentials plugin, Paper plugin, Folia plugin, utility plugin",
+      "publisher": {
+        "@id": "https://arkflame.com/#organization"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "SMP Harvest",
+      "url": "https://builtbybit.com/resources/smp-harvest.26872/",
+      "image": "https://arkflame.com/assets/img/products/smp/smp-harvest.webp",
+      "description": "Minecraft farming economy plugin for crop XP, token rewards, Vault money, tool levels, and harvest events.",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Minecraft Java Edition Server",
+      "keywords": "minecraft farming plugin, SMP economy plugin, harvest plugin",
+      "publisher": {
+        "@id": "https://arkflame.com/#organization"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "SMP Punishments",
+      "url": "https://builtbybit.com/resources/smp-punishments-voice-mute-bans.103696/",
+      "image": "https://arkflame.com/assets/img/products/smp/smp-punishments.webp",
+      "description": "Minecraft moderation plugin for punishments, voice mute, bans, staff actions, and server discipline.",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Minecraft Java Edition Server",
+      "keywords": "minecraft moderation plugin, voice mute plugin, ban plugin",
+      "publisher": {
+        "@id": "https://arkflame.com/#organization"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "SMP Combat",
+      "url": "https://builtbybit.com/resources/smp-combat.103978/",
+      "image": "https://arkflame.com/assets/img/products/smp/smp-combat.webp",
+      "description": "Minecraft combat tag and PvP control plugin for survival servers and old combat mechanics.",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Minecraft Java Edition Server",
+      "keywords": "minecraft combat tag plugin, pvp control plugin, SMP combat",
+      "publisher": {
+        "@id": "https://arkflame.com/#organization"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "SMP Regions",
+      "url": "https://builtbybit.com/resources/smp-regions.104646/",
+      "image": "https://arkflame.com/assets/img/products/smp/smp-regions.webp",
+      "description": "Minecraft region flags plugin for warzones, spawn protection, PvP zones, and resettable areas.",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Minecraft Java Edition Server",
+      "keywords": "minecraft regions plugin, pvp zone plugin, region flags",
+      "publisher": {
+        "@id": "https://arkflame.com/#organization"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "SMP Lifesteal",
+      "url": "https://builtbybit.com/resources/smp-lifesteal.106855/",
+      "image": "https://arkflame.com/assets/img/products/smp/smp-lifesteal.webp",
+      "description": "Minecraft Lifesteal SMP core plugin with hearts, elimination, revive flows, and competitive survival progression.",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Minecraft Java Edition Server",
+      "keywords": "minecraft lifesteal plugin, lifesteal SMP plugin, revive plugin",
+      "publisher": {
+        "@id": "https://arkflame.com/#organization"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "SMP Menus",
+      "url": "https://builtbybit.com/resources/smp-menus.108152/",
+      "image": "https://arkflame.com/assets/img/products/smp/smp-menus.webp",
+      "description": "Minecraft GUI menu system plugin for help menus, rules, staff tools, command hubs, and SMP navigation.",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Minecraft Java Edition Server",
+      "keywords": "minecraft menu plugin, GUI plugin, SMP menus",
+      "publisher": {
+        "@id": "https://arkflame.com/#organization"
+      }
+    }
+  ]
+}</script></head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header" data-header="">
+<nav aria-label="Primary navigation" class="nav shell">
+<a aria-label="ArkFlame Studios home" class="brand" href="#top">
+<img alt="ArkFlame Studios logo for premium Minecraft plugins and server software" decoding="async" fetchpriority="high" height="38" loading="eager" src="assets/img/arkflame-logo.webp" width="38"/>
+<span><strong>ARKFLAME</strong><em>STUDIOS</em></span>
+</a>
+<button aria-controls="primary-menu" aria-expanded="false" class="menu-toggle" data-menu-toggle="" type="button">
+<span></span><span></span><span></span>
+<span class="sr-only">Toggle menu</span>
+</button>
+<div class="nav-links" data-menu="" id="primary-menu">
+<a href="#security">Security</a>
+<a href="#performance">Performance</a>
+<a href="#network">Network</a>
+<a href="#gameplay">Gameplay</a>
+<a href="#smp">SMP</a>
+<a href="#links">Links</a>
+<a class="nav-cta" href="https://builtbybit.com/creators/linsaftw.152552/" rel="noopener" target="_blank">Catalog</a>
+</div>
+</nav>
+</header>
+<main id="main">
+<section class="hero shell" id="top">
+<div class="hero-copy">
+<p class="eyebrow"><span></span> Premium Minecraft plugins</p>
+<h1>Premium Minecraft Plugins<br/><span>Server Performance Solutions</span></h1>
+<p class="hero-text">High-performance Minecraft plugins for anti-lag optimization, crash protection, low MSPT, proxy security, authentication, anticheat, and SMP gameplay.</p>
+<div aria-label="Primary actions" class="hero-actions">
+<a class="btn primary" href="#security">Explore products</a>
+<a class="btn secondary" href="https://discord.com/invite/gF36AT3" rel="noopener" target="_blank">Join Discord</a>
+</div>
+</div>
+<aside aria-label="ArkFlame software layers" class="hero-panel">
+<img alt="ArkFlame Studios logo for premium Minecraft plugins and server software" class="hero-logo" decoding="async" fetchpriority="high" height="112" loading="eager" src="assets/img/arkflame-logo.webp" width="112"/>
+<div class="layer-list">
+<span><i class="bi bi-shield-lock-fill"></i> Security</span>
+<span><i class="bi bi-hdd-network-fill"></i> Proxy</span>
+<span><i class="bi bi-speedometer2"></i> Performance</span>
+<span><i class="bi bi-crosshair2"></i> Anticheat</span>
+</div>
+</aside>
+</section>
+<section aria-label="ArkFlame stack summary" class="intro shell">
+<article><i class="bi bi-shield-check"></i><strong>Security</strong><span>Anti-bot, anti-crash, exploit defense.</span></article>
+<article><i class="bi bi-lightning-charge-fill"></i><strong>Performance</strong><span>Runtime forks, limiters, stability tools.</span></article>
+<article><i class="bi bi-diagram-3-fill"></i><strong>Network</strong><span>Proxy routing and connection entry.</span></article>
+</section>
+<section class="product-category shell" id="security">
+<header class="category-heading">
+<div class="category-icon security"><i class="bi bi-shield-lock-fill"></i></div>
+<h2>Security Minecraft Plugins</h2>
+<p>Exploit defense, authentication, anticheat, and abuse control.</p>
+</header>
+<div class="product-list two-columns">
+<article class="product-row">
+<a href="https://exploitfixer.org/" rel="noopener" target="_blank">
+<img alt="ExploitFixer premium Minecraft plugin icon for crash protection and exploit mitigation" decoding="async" height="88" loading="lazy" src="assets/img/product-icons/exploitfixer.webp" width="88"/>
+<div class="product-body">
+<div class="product-title"><h3 title="ExploitFixer - Advanced Minecraft crash protection and exploit mitigation plugin">ExploitFixer</h3><span aria-label="5 star rating" class="rating">★★★★★</span></div>
+<p>Blocks crash clients, malformed packets, exploit chains, and invalid packet abuse.</p>
+<div class="chips"><span class="chip security-chip">Packet Defense</span><span class="chip">Spigot</span><span class="chip">Paper</span><span class="chip">Folia</span></div>
+</div>
+</a>
+</article>
+<article class="product-row">
+<a href="https://fairplay.arkflame.com/" rel="noopener" target="_blank">
+<img alt="FairPlay Minecraft anticheat plugin icon for PvP server security" decoding="async" height="88" loading="lazy" src="assets/img/product-icons/fairplay.webp" width="88"/>
+<div class="product-body">
+<div class="product-title"><h3 title="FairPlay - Minecraft anticheat plugin for combat integrity and PvP trust">FairPlay</h3><span aria-label="5 star rating" class="rating">★★★★★</span></div>
+<p>Anticheat systems for combat integrity, movement validation, and PvP trust.</p>
+<div class="chips"><span class="chip gameplay-chip">Anticheat</span><span class="chip">Combat</span><span class="chip">1.8–1.21</span></div>
+</div>
+</a>
+</article>
+<article class="product-row">
+<a href="https://builtbybit.com/resources/authme-premium-geyser-java.44493/" rel="noopener" target="_blank">
+<img alt="AuthMe Premium Minecraft secure login plugin icon" decoding="async" height="88" loading="lazy" src="assets/img/product-icons/authme-premium.webp" width="88"/>
+<div class="product-body">
+<div class="product-title"><h3 title="AuthMe Premium - Secure Minecraft login and authentication plugin">AuthMe Premium</h3><span aria-label="5 star rating" class="rating">★★★★★</span></div>
+<p>Premium authentication workflow for Java and Bedrock server access.</p>
+<div class="chips"><span class="chip security-chip">Auth Gateway</span><span class="chip">Geyser</span><span class="chip">Floodgate</span></div>
+</div>
+</a>
+</article>
+</div>
+</section>
+<section class="product-category shell" id="performance">
+<header class="category-heading">
+<div class="category-icon performance"><i class="bi bi-speedometer2"></i></div>
+<h2>High-Performance Minecraft Plugins</h2>
+<p>Runtime optimization, lag-machine control, entity caps, and server stability.</p>
+</header>
+<div class="product-list two-columns">
+<article class="product-row">
+<a href="https://builtbybit.com/resources/flamepaper-high-performance.44405/" rel="noopener" target="_blank">
+<img alt="FlamePaper high-performance PaperSpigot fork icon for Minecraft PvP servers" decoding="async" height="88" loading="lazy" src="assets/img/product-icons/flamepaper.webp" width="88"/>
+<div class="product-body">
+<div class="product-title"><h3 title="FlamePaper - High-performance PaperSpigot 1.8.8 fork for PvP servers">FlamePaper</h3><span aria-label="5 star rating" class="rating">★★★★★</span></div>
+<p>PaperSpigot-style runtime fork focused on server behavior, performance, and control.</p>
+<div class="chips"><span class="chip performance-chip">1.8.8 Fork</span><span class="chip">Paper</span><span class="chip">PvP</span></div>
+</div>
+</a>
+</article>
+<article class="product-row">
+<a href="https://builtbybit.com/resources/redstonelimiter-smart-redstone-limiter.23133/" rel="noopener" target="_blank">
+<img alt="RedstoneLimiter Minecraft anti-lag redstone plugin icon" decoding="async" height="88" loading="lazy" src="assets/img/product-icons/redstonelimiter.webp" width="88"/>
+<div class="product-body">
+<div class="product-title"><h3 title="RedstoneLimiter - Minecraft redstone lag prevention plugin">RedstoneLimiter</h3><span aria-label="5 star rating" class="rating">★★★★★</span></div>
+<p>Limits redstone lag machines before they destroy tick stability.</p>
+<div class="chips"><span class="chip performance-chip">Redstone Limiter</span><span class="chip">Lag Control</span><span class="chip">Paper</span></div>
+</div>
+</a>
+</article>
+<article class="product-row">
+<a href="https://builtbybit.com/resources/entitylimiter-optimize-performance.67164/" rel="noopener" target="_blank">
+<img alt="EntityLimiter Minecraft entity optimization plugin icon" decoding="async" height="88" loading="lazy" src="assets/img/product-icons/entitylimiter.webp" width="88"/>
+<div class="product-body">
+<div class="product-title"><h3 title="EntityLimiter - Minecraft entity optimization and lag reduction plugin">EntityLimiter</h3><span aria-label="5 star rating" class="rating">★★★★★</span></div>
+<p>Controls entity growth, protects dense worlds, and prevents entity-based lag spikes.</p>
+<div class="chips"><span class="chip performance-chip">Entity Limiter</span><span class="chip">Async Queue</span><span class="chip">Folia</span></div>
+</div>
+</a>
+</article>
+<article class="product-row">
+<a href="https://builtbybit.com/resources/mobstacker-optimize-server-performance.23141/" rel="noopener" target="_blank">
+<img alt="MobStacker Minecraft mob stacking performance plugin icon" decoding="async" height="88" loading="lazy" src="assets/img/product-icons/mobstacker.webp" width="88"/>
+<div class="product-body">
+<div class="product-title"><h3 title="MobStacker - Minecraft mob stacking and entity optimization plugin">MobStacker</h3><span aria-label="5 star rating" class="rating">★★★★★</span></div>
+<p>Stacks mobs to reduce entity pressure while preserving gameplay semantics.</p>
+<div class="chips"><span class="chip performance-chip">Mob Stacker</span><span class="chip">Optimization</span><span class="chip">Survival</span></div>
+</div>
+</a>
+</article>
+</div>
+</section>
+<section class="product-category shell" id="network">
+<header class="category-heading">
+<div class="category-icon network"><i class="bi bi-hdd-network-fill"></i></div>
+<h2>Proxy &amp; Network Minecraft Software</h2>
+<p>Proxy forks and network entry layers for modern Minecraft infrastructure.</p>
+</header>
+<div class="product-list two-columns">
+<article class="product-row">
+<a href="https://flamecord.com/" rel="noopener" target="_blank">
+<img alt="FlameCord BungeeCord proxy protection software icon" decoding="async" height="88" loading="lazy" src="assets/img/product-icons/flamecord.webp" width="88"/>
+<div class="product-body">
+<div class="product-title"><h3 title="FlameCord - BungeeCord and Waterfall anti-bot proxy protection">FlameCord</h3><span aria-label="5 star rating" class="rating">★★★★★</span></div>
+<p>Secure BungeeCord/Waterfall fork for anti-bot and anti-crash network entry.</p>
+<div class="chips"><span class="chip network-chip">Bungee/Waterfall Fork</span><span class="chip">Anti-Bot</span><span class="chip">Proxy</span></div>
+</div>
+</a>
+</article>
+<article class="product-row">
+<a href="https://veloflame.com/" rel="noopener" target="_blank">
+<img alt="VeloFlame Velocity fork Minecraft proxy software icon" decoding="async" height="88" loading="lazy" src="assets/img/product-icons/veloflame.webp" width="88"/>
+<div class="product-body">
+<div class="product-title"><h3 title="VeloFlame - Velocity fork for modern Minecraft proxy performance">VeloFlame</h3><span aria-label="5 star rating" class="rating">★★★★★</span></div>
+<p>Velocity fork direction for secure, fast, modern proxy infrastructure.</p>
+<div class="chips"><span class="chip network-chip">Velocity Fork</span><span class="chip">Packet Limits</span><span class="chip">Modern Proxy</span></div>
+</div>
+</a>
+</article>
+</div>
+</section>
+<section class="product-category shell" id="gameplay">
+<header class="category-heading">
+<div class="category-icon gameplay"><i class="bi bi-controller"></i></div>
+<h2>Gameplay Minecraft Plugins</h2>
+<p>Server systems for PvP, practice, SMP, and player-facing mechanics.</p>
+</header>
+<div class="product-list two-columns">
+<article class="product-row">
+<a href="https://builtbybit.com/resources/flamepractice-duels-ranked-ffa.70252/" rel="noopener" target="_blank">
+<img alt="FlamePractice Minecraft PvP practice plugin icon" decoding="async" height="88" loading="lazy" src="assets/img/product-icons/flamepractice.webp" width="88"/>
+<div class="product-body">
+<div class="product-title"><h3 title="FlamePractice - Minecraft PvP practice server plugin">FlamePractice</h3><span aria-label="5 star rating" class="rating">★★★★★</span></div>
+<p>Practice server system for PvP servers, arenas, kits, and competitive gameplay loops.</p>
+<div class="chips"><span class="chip gameplay-chip">Practice Core</span><span class="chip">PvP</span><span class="chip">Arena</span></div>
+</div>
+</a>
+</article>
+<article class="product-row">
+<a href="https://builtbybit.com/resources/essentialslite.34917/" rel="noopener" target="_blank">
+<img alt="EssentialsLite high-performance Minecraft essentials plugin artwork" class="product-banner" decoding="async" height="88" loading="lazy" src="assets/img/products/smp/essentialslite.webp" width="88"/>
+<div class="product-body">
+<div class="product-title"><h3 title="EssentialsLite - Lightweight Minecraft essentials plugin for Paper and Folia">EssentialsLite</h3><span aria-label="5 star rating" class="rating">★★★★★</span></div>
+<p>Lightweight essentials command suite for homes, warps, kits, chat, economy, and utilities.</p>
+<div class="chips"><span class="chip gameplay-chip">Essentials Suite</span><span class="chip">Folia</span><span class="chip">Utility</span></div>
+</div>
+</a>
+</article>
+</div>
+</section>
+<section class="product-category shell" id="smp">
+<header class="category-heading">
+<div class="category-icon smp"><i class="bi bi-boxes"></i></div>
+<h2>SMP Minecraft Plugins</h2>
+<p>Focused systems for survival networks, Donut-style SMPs, economy loops, PvP control, menus, regions, and lifesteal gameplay.</p>
+</header>
+<div class="product-list two-columns">
+<article class="product-row">
+<a href="https://builtbybit.com/resources/smp-harvest.26872/" rel="noopener" target="_blank">
+<img alt="SMP Harvest Minecraft farming economy plugin artwork" class="product-banner" decoding="async" height="88" loading="lazy" src="assets/img/products/smp/smp-harvest.webp" width="88"/>
+<div class="product-body">
+<div class="product-title"><h3 title="SMP Harvest - Minecraft farming economy and survival progression plugin">SMP Harvest</h3><span aria-label="5 star rating" class="rating">★★★★★</span></div>
+<p>Farming progression suite with crop XP, token rewards, Vault money, tool levels, and harvest events.</p>
+<div class="chips"><span class="chip smp-chip">Farming Economy</span><span class="chip">1.8–1.21</span><span class="chip">Folia</span></div>
+</div>
+</a>
+</article>
+<article class="product-row">
+<a href="https://builtbybit.com/resources/essentialslite.34917/" rel="noopener" target="_blank">
+<img alt="EssentialsLite high-performance Minecraft essentials plugin artwork" class="product-banner" decoding="async" height="88" loading="lazy" src="assets/img/products/smp/essentialslite.webp" width="88"/>
+<div class="product-body">
+<div class="product-title"><h3 title="EssentialsLite - Lightweight Minecraft essentials plugin for Paper and Folia">EssentialsLite</h3><span aria-label="5 star rating" class="rating">★★★★★</span></div>
+<p>High-performance essentials suite for homes, warps, kits, chat, economy, teleportation, and utilities.</p>
+<div class="chips"><span class="chip smp-chip">Essentials Suite</span><span class="chip">Paper</span><span class="chip">Folia</span></div>
+</div>
+</a>
+</article>
+<article class="product-row">
+<a href="https://builtbybit.com/resources/smp-punishments-voice-mute-bans.103696/" rel="noopener" target="_blank">
+<img alt="SMP Punishments Minecraft moderation plugin artwork for voice mute and bans" class="product-banner" decoding="async" height="88" loading="lazy" src="assets/img/products/smp/smp-punishments.webp" width="88"/>
+<div class="product-body">
+<div class="product-title"><h3 title="SMP Punishments - Minecraft moderation plugin for voice mute and bans">SMP Punishments</h3><span aria-label="5 star rating" class="rating">★★★★★</span></div>
+<p>Moderation workflow for punishments, voice mute handling, bans, staff actions, and server discipline.</p>
+<div class="chips"><span class="chip security-chip">Moderation</span><span class="chip">Voice Mute</span><span class="chip">Bans</span></div>
+</div>
+</a>
+</article>
+<article class="product-row">
+<a href="https://builtbybit.com/resources/smp-combat.103978/" rel="noopener" target="_blank">
+<img alt="SMP Combat Minecraft combat tag and PvP control plugin artwork" class="product-banner" decoding="async" height="88" loading="lazy" src="assets/img/products/smp/smp-combat.webp" width="88"/>
+<div class="product-body">
+<div class="product-title"><h3 title="SMP Combat - Minecraft combat tag and PvP control plugin">SMP Combat</h3><span aria-label="5 star rating" class="rating">★★★★★</span></div>
+<p>Combat tag, combat log control, PvP restrictions, and old combat mechanics for survival PvP servers.</p>
+<div class="chips"><span class="chip gameplay-chip">Combat Tag</span><span class="chip">PvP</span><span class="chip">Folia</span></div>
+</div>
+</a>
+</article>
+<article class="product-row">
+<a href="https://builtbybit.com/resources/smp-regions.104646/" rel="noopener" target="_blank">
+<img alt="SMP Regions Minecraft region flags and PvP zones plugin artwork" class="product-banner" decoding="async" height="88" loading="lazy" src="assets/img/products/smp/smp-regions.webp" width="88"/>
+<div class="product-body">
+<div class="product-title"><h3 title="SMP Regions - Minecraft region flags and PvP zone plugin">SMP Regions</h3><span aria-label="5 star rating" class="rating">★★★★★</span></div>
+<p>WorldGuard-style region flags, warzones, spawn protection, PvP zones, and resettable areas.</p>
+<div class="chips"><span class="chip network-chip">Region Flags</span><span class="chip">Reset Areas</span><span class="chip">Folia</span></div>
+</div>
+</a>
+</article>
+<article class="product-row">
+<a href="https://builtbybit.com/resources/smp-lifesteal.106855/" rel="noopener" target="_blank">
+<img alt="SMP Lifesteal Minecraft Lifesteal SMP core plugin artwork" class="product-banner" decoding="async" height="88" loading="lazy" src="assets/img/products/smp/smp-lifesteal.webp" width="88"/>
+<div class="product-body">
+<div class="product-title"><h3 title="SMP Lifesteal - Minecraft Lifesteal SMP core plugin">SMP Lifesteal</h3><span aria-label="5 star rating" class="rating">★★★★★</span></div>
+<p>Lifesteal hearts, elimination, revive flows, death consequences, and competitive survival progression.</p>
+<div class="chips"><span class="chip gameplay-chip">Lifesteal</span><span class="chip">Revive</span><span class="chip">SMP</span></div>
+</div>
+</a>
+</article>
+<article class="product-row">
+<a href="https://builtbybit.com/resources/smp-menus.108152/" rel="noopener" target="_blank">
+<img alt="SMP Menus Minecraft GUI menu system plugin artwork" class="product-banner" decoding="async" height="88" loading="lazy" src="assets/img/products/smp/smp-menus.webp" width="88"/>
+<div class="product-body">
+<div class="product-title"><h3 title="SMP Menus - Minecraft GUI menu system plugin">SMP Menus</h3><span aria-label="5 star rating" class="rating">★★★★★</span></div>
+<p>Configurable inventory menus for help, rules, staff tools, command hubs, and SMP navigation.</p>
+<div class="chips"><span class="chip smp-chip">Menu System</span><span class="chip">GUI</span><span class="chip">Folia</span></div>
+</div>
+</a>
+</article>
+</div>
+</section>
+<section class="links-section shell" id="links">
+<header class="category-heading compact">
+<div class="category-icon links"><i class="bi bi-link-45deg"></i></div>
+<h2>ArkFlame Links</h2>
+<p>Direct routes to the catalog, code, profile, community, and product surfaces.</p>
+</header>
+<div aria-label="ArkFlame external links" class="icon-links">
+<a aria-label="ArkFlame Studios Discord" href="https://discord.com/invite/gF36AT3" rel="noopener" target="_blank">
+<i aria-hidden="true" class="bi bi-discord"></i>
+<span>Discord</span>
+</a>
+<a aria-label="ArkFlame GitHub" href="https://github.com/ArkFlame" rel="noopener" target="_blank">
+<i aria-hidden="true" class="bi bi-github"></i>
+<span>GitHub</span>
+</a>
+<a aria-label="ArkFlame BuiltByBit catalog" href="https://builtbybit.com/creators/linsaftw.152552/" rel="noopener" target="_blank">
+<i class="bi bi-shop"></i>
+<span>Catalog</span>
+</a>
+<a aria-label="SMP Complete Suite bundle" href="https://builtbybit.com/resources/bundle/smp-complete-suite.3724/" rel="noopener" target="_blank">
+<img alt="SMP Complete Suite Minecraft plugins bundle artwork" class="link-thumb" decoding="async" height="28" loading="lazy" src="assets/img/products/smp/smp-bundle.webp" width="28"/>
+<span>SMP Suite</span>
+</a>
+<a aria-label="LinsaFTW profile" href="https://linsaftw.arkflame.com" rel="noopener" target="_blank">
+<img alt="LinsaFTW ArkFlame Studios developer profile image" decoding="async" height="28" loading="lazy" src="assets/img/product-icons/linsaftw.webp" width="28"/>
+<span>LinsaFTW</span>
+</a>
+<a aria-label="FlameCord website" href="https://flamecord.com/" rel="noopener" target="_blank">
+<img alt="FlameCord BungeeCord proxy protection software icon" decoding="async" height="28" loading="lazy" src="assets/img/product-icons/flamecord.webp" width="28"/>
+<span>FlameCord</span>
+</a>
+<a aria-label="ExploitFixer website" href="https://exploitfixer.org/" rel="noopener" target="_blank">
+<img alt="ExploitFixer premium Minecraft plugin icon for crash protection and exploit mitigation" decoding="async" height="28" loading="lazy" src="assets/img/product-icons/exploitfixer.webp" width="28"/>
+<span>ExploitFixer</span>
+</a>
+<a aria-label="VeloFlame website" href="https://veloflame.com/" rel="noopener" target="_blank">
+<img alt="VeloFlame Velocity fork Minecraft proxy software icon" decoding="async" height="28" loading="lazy" src="assets/img/product-icons/veloflame.webp" width="28"/>
+<span>VeloFlame</span>
+</a>
+<a aria-label="FairPlay website" href="https://fairplay.arkflame.com/" rel="noopener" target="_blank">
+<img alt="FairPlay Minecraft anticheat plugin icon for PvP server security" decoding="async" height="28" loading="lazy" src="assets/img/product-icons/fairplay.webp" width="28"/>
+<span>FairPlay</span>
+</a>
+</div>
+</section>
+</main>
+<footer class="site-footer shell">
+<div>
+<a aria-label="ArkFlame Studios home" class="brand footer-brand" href="#top">
+<img alt="ArkFlame Studios logo for premium Minecraft plugins and server software" decoding="async" fetchpriority="high" height="32" loading="eager" src="assets/img/arkflame-logo.webp" width="32"/>
+<span><strong>ARKFLAME</strong><em>STUDIOS</em></span>
+</a>
+<p>ArkFlame Studios builds Minecraft server software for security, proxy routing, performance, authentication, anticheat, and gameplay systems.</p>
+<p class="legal">Minecraft is a trademark of Mojang Studios. ArkFlame Studios is not affiliated with Mojang or Microsoft.</p>
+</div>
+<div class="footer-links">
+<a href="#security">Security</a>
+<a href="#performance">Performance</a>
+<a href="#network">Network</a>
+<a href="#gameplay">Gameplay</a>
+<a href="#smp">SMP</a>
+<a href="#links">Links</a>
+</div>
+</footer>
+<script defer="" src="assets/js/main.js"></script>
+</body>
+</html>

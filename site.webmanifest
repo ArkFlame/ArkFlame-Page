@@ -1,0 +1,21 @@
+{
+  "name": "ArkFlame Studios - Minecraft Plugins",
+  "short_name": "ArkFlame",
+  "description": "Premium Minecraft plugins for server security, anti-lag performance, proxy protection, authentication, anticheat, and SMP gameplay.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050912",
+  "theme_color": "#061527",
+  "icons": [
+    {
+      "src": "/assets/img/icon-192.webp",
+      "sizes": "192x192",
+      "type": "image/webp"
+    },
+    {
+      "src": "/assets/img/icon-512.webp",
+      "sizes": "512x512",
+      "type": "image/webp"
+    }
+  ]
+}

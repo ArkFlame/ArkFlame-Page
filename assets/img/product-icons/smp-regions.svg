@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Smp Regions">
+  <defs>
+    <radialGradient id="g" cx="50%" cy="35%" r="70%">
+      <stop offset="0" stop-color="#54dff8" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#142033"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="28" stdDeviation="38" flood-color="#000" flood-opacity=".38"/></filter>
+  </defs>
+  <rect x="64" y="64" width="896" height="896" rx="210" fill="url(#g)"/>
+  <rect x="96" y="96" width="832" height="832" rx="188" fill="none" stroke="#54dff8" stroke-opacity=".34" stroke-width="24"/>
+  <g filter="url(#shadow)"><path d="M512 170l300 170v344L512 854 212 684V340z" fill="#1d3448" stroke="#54dff8" stroke-width="34"/><path d="M512 170v342l300 172" stroke="#b59cff" stroke-width="28" fill="none"/><path d="M512 512L212 340" stroke="#76e18f" stroke-width="28"/><path d="M358 438h308v148H358z" rx="28" fill="#54dff8" opacity=".85"/></g>
+</svg>
